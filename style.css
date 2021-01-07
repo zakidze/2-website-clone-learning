@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+p,
+h1,
+li {
+  font-family: Arial, Helvetica, sans-serif;
+}
+li {
+  list-style: none;
+}
+nav {
+  background: #32067c;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav .links ul {
+  display: flex;
+  color: white;
+}
+nav .links ul li {
+  display: flex;
+  color: white;
+  padding: 2rem 1rem;
+}
+nav .links ul li:hover {
+  border-bottom: 2px solid white;
+  cursor: pointer;
+}
+.pages {
+  background: #4608ad;
+  color: white;
+}
+.pages ul {
+  display: flex;
+}
+.pages ul li {
+  padding: 1rem;
+  cursor: pointer;
+}
+.content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.content .left {
+  padding: 1rem;
+}
+.content .left .title {
+  display: flex;
+  align-items: center;
+}
+.content .left .title h1 {
+  margin-left: 10px;
+  padding: 1rem;
+}
+.content .right {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.content .stars {
+  padding: 1rem;
+}
+.content .right input {
+  display: block;
+  padding: 3rem;
+  margin-top: 20px;
+  display: block;
+}
+.content .right p {
+  font-size: 32px;
+}
+.card {
+  margin: 1rem 0;
+  padding: 1rem 0.5rem;
+  border: 4px #4608ad solid;
+  border-radius: 20px;
+}
+
+.card button {
+  margin: 1rem;
+  padding: 1rem;
+  color: white;
+  background: #4608ad;
+  border: none;
+}
+.left-content {
+  border-bottom: 2px solid darkgrey;
+}
+.subscribe {
+  padding: 2rem;
+  text-align: center;
+}
+.subscribe p {
+  padding: 20px;
+}
+
+.subscribe button {
+  background: #4608ad;
+  border: none;
+  color: white;
+  padding: 1rem;
+}
+.subscribe input {
+  border: none;
+  border-bottom: 2px #4608ad solid;
+  color: white;
+  padding: 1rem;
+  margin-right: 10px;
+}
+footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 90%;
+  margin: 0 auto;
+}
+footer ul li:first-child {
+  padding: 1rem 0rem;
+  color: #32067c;
+  font-weight: bold;
+  font-size: 2rem;
+}
+footer ul li {
+  padding: 0.5rem;
+}
